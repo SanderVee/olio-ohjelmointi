@@ -2,6 +2,10 @@
 
 using namespace std;
 
+void calcSum (int x, int y) {
+    cout << "Total is: " << x + y << endl;
+}
+
 int main()
 {
     int num1, num2;
@@ -9,5 +13,6 @@ int main()
     cin >> num1; // Lukee käyttäjän inputin
     cout << "Give another number: " << endl; // Kysyy toista numeroa käyttäjältä
     cin >> num2; // Lukee käyttäjän inputin
+    calcSum(num1, num2); // Laskee yhteen
     return 0;
 }
