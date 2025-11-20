@@ -2,7 +2,7 @@
 
 Dog::Dog(string n): Animal(n) {
 
-    cout<<"   -Dog "<<name<<" constructor"<<endl;
+    cout<<"   -Dog "<<name<<" object created"<<endl;
 }
 
 Dog::~Dog()

@@ -4,7 +4,7 @@
 Animal::Animal(string n)
 {
     name = n;
-    cout<<"Animal "<<name<< " construcor" << endl;
+    cout<<"Animal "<<name<< " object created" << endl;
 }
 
 Animal::~Animal()
