@@ -7,7 +7,7 @@ Dog::Dog(string n): Animal(n) {
 
 Dog::~Dog()
 {
-    cout<<"   -Dog "<<name<<" deconstructor"<<endl;
+    cout<<"   -Dog "<<name<<" object destroyed"<<endl;
 }
 
 void Dog::callOut()

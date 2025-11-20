@@ -9,7 +9,7 @@ Animal::Animal(string n)
 
 Animal::~Animal()
 {
-    cout<<"Animal "<<name<<" deconstructor"<<endl;
+    cout<<"Animal "<<name<<" object destroyed"<<endl;
 }
 
 void Animal::callOut()
