@@ -23,20 +23,17 @@ void Car::setModel(const string &newModel)
 
 void Car::setEngine()
 {
-    objEngine.setHorsepower(150);
-    objEngine.setDisplacement(2.0);
+    objEngine = Engine(150, 2.0);
+
 }
 
 void Car::setWheels()
 {
-    objWheel1.setSize(17);
-    objWheel2.setSize(17);
-    objWheel3.setSize(17);
-    objWheel4.setSize(17);
-    objWheel1.setType("summer tyre");
-    objWheel2.setType("summer tyre");
-    objWheel3.setType("summer tyre");
-    objWheel4.setType("summer tyre");
+    objWheel1 = Wheel(17, "summer tyre");
+    objWheel2 = Wheel(17, "summer tyre");
+    objWheel3 = Wheel(17, "summer tyre");
+    objWheel4 = Wheel(17, "summer tyre");
+
 }
 
 void Car::printDetails()
